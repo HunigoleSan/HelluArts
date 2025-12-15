@@ -95,6 +95,7 @@
                 <img src="{{asset('images/web/login-700.webp')}}" alt="">
             </picture>
         </section>
+        
     </main>
 </body>
 
