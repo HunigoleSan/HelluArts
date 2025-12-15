@@ -1,0 +1,13 @@
+.border-white{
+    border: 1px solid var(--border-white);
+}
+.text-white{
+    color: var(--text-secondary);
+}
+.link{
+    padding: 10px 1rem;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+}

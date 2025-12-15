@@ -1,0 +1,24 @@
+:root{
+    --text-primary: #2C132F;
+    --text-secondary: #ffffff;
+    --text-white: #ffffff;
+    --text-wine-500: #A8315A;
+    --text-pink-300: #B397AF;
+    --text-purple-25: #DCD5DD;
+    
+    --bg-primary: #ffffff;
+    --bg-wine-500: #A8315A;
+    --bg-wine-700: #992F87;
+    --bg-blue-650: #518EF8;
+    --bg-blue-900: #005DFF;
+    --bg-blue-650-40: rgba(81, 142, 248,40%);
+
+    --bg-gradient-stelar: linear-gradient(90deg, #A8315A, #992F87);
+    --bg-gradient-stelar-transparent-10: linear-gradient(90deg, rgba(168, 49, 91, 10%), rgba(153, 47, 135,10%));
+    --bg-radial-wine: radial-gradient(#CC2149,rgba(128, 12, 39,0.85));
+    --border-gray-50: #F0F0F0;
+    --border-pink-100: #DBC8D8;
+    --border-white: #ffffff;
+    --border-wine-500: #A8315A;
+
+}

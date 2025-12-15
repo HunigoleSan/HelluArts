@@ -1,0 +1,1 @@
+<p id="stolas" class="item cat-item">{{$cat}}</p>
