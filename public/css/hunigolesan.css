@@ -11,6 +11,11 @@
     align-items: center;
     cursor: pointer;
     white-space: nowrap;
+    height: 35px;
+    font-size: 1rem;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
 }
 .d-flex{
     display: flex;

@@ -20,7 +20,7 @@
                         
                         <form action="{{route('logout')}}" method="post">
                             @csrf
-                            <button class="link link-border" type="submit">Cerrar sesión</button>
+                            <button class="link text-white border-white" type="submit">Cerrar sesión</button>
                         </form>
                     @endif
                 </div>
