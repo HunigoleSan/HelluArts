@@ -23,13 +23,13 @@
 
         @else
         <div class="dropdown">
-            Hugo
+            {{session('real_name')}}
             <i class='dropdown-icon bxr  bx-chevron-down'></i>
             <div class="dropdown-animation">
                 <ul class="list list-dropdown">
                     <li class="list-item">
                         <p>Panel usuario</p>
-                        <small><i>HunigoleSan</i></small>
+                        <small><i>{{session('public_name')}}</i></small>
                     </li>
                     <li class="list-item">
                         <a href="" class="main-mobile">Ver FanArts<i class='icon-hidden bxr  bx-arrow-out-up-right-square'></i> </a>
@@ -37,7 +37,10 @@
                         <a href="">Configuraciones <i class='icon-hidden bxr  bx-arrow-out-up-right-square'></i> </a>
                     </li>
                     <li class="list-item">
-                        <a href="">Cerrar sesión <i class='icon-hidden bxr  bx-arrow-out-right-square-half'></i> </a>
+                        <form action="{{route('logout')}}" method="post">
+                            @csrf
+                            <button type="text" value="Cerrar sesión">Cerrar sesión<i class='icon-hidden bxr  bx-arrow-out-right-square-half'></i></button>
+                        </form>
                     </li>
                 </ul>
             </div>

@@ -98,12 +98,19 @@
     border-top: 1px solid white;
     padding-top: 12px;
 }
-.list-dropdown > .list-item > a {
+.list-dropdown > .list-item > a,
+.list-item > form > button{
     color: inherit;
     display: flex;
     gap: 5px;
     align-items: center;
     
+}
+.list-item > form > button{
+    border: 0;
+    font-family: inherit;
+    font-size: 1rem;
+    cursor: pointer;
 }
 .list-dropdown > .list-item > a:first-child {
     margin-bottom: 12px;
@@ -126,7 +133,8 @@
     border-radius: 35px;
 }
 
-.list-dropdown > .list-item > a:hover > .icon-hidden {
+.list-dropdown > .list-item > a:hover > .icon-hidden,
+.list-item > form > button:hover > .icon-hidden {
     visibility: visible;
     opacity: 1;
     transform: translateX(0px);
