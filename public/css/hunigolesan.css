@@ -5,9 +5,28 @@
     color: var(--text-secondary);
 }
 .link{
-    padding: 10px 1rem;
+    padding: 6.5px 1rem;
     border-radius: 6px;
     font-weight: 500;
+    align-items: center;
     cursor: pointer;
     white-space: nowrap;
+}
+.d-flex{
+    display: flex;
+} 
+.align-items-center{
+    align-items: center;
+} 
+.flex-direction-column{
+    flex-direction: column;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.text-center{
+    text-align: center;
+}
+.g-1{
+    gap: 1rem;
 }

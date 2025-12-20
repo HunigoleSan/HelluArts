@@ -7,11 +7,15 @@
     --text-purple-25: #DCD5DD;
     
     --bg-primary: #ffffff;
+    --bg-wine-325: #FF9CEE;
     --bg-wine-500: #A8315A;
     --bg-wine-700: #992F87;
     --bg-blue-650: #518EF8;
     --bg-blue-900: #005DFF;
     --bg-blue-650-40: rgba(81, 142, 248,40%);
+    --bg-blue-dark-900: #070715;
+    --bg-purple-325: #CDA7FF;
+    --bg-purple-700: #9747FF;
 
     --bg-gradient-stelar: linear-gradient(90deg, #A8315A, #992F87);
     --bg-gradient-stelar-transparent-10: linear-gradient(90deg, rgba(168, 49, 91, 10%), rgba(153, 47, 135,10%));

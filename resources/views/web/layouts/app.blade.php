@@ -20,9 +20,18 @@
 <body class="body">
     
     <main class="main">
-        @include('web.layouts.header')
+
+        @if(request()->routeIs('artes'))
+        <aside class="announcement">
+            🎨 ¡Sé artista! Sube tus creaciones y comparte tu talento.
+        </aside>
+            @include('web.layouts.header_web')
         
+        @else
+            @include('web.layouts.header')
+        @endif
         @yield('content')
+
     </main>
 
     <!-- <div id="galerias" class="galerias">

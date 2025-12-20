@@ -12,7 +12,7 @@ class Categorias extends Component
     public function __construct($data)
     {
         if($data->estado === "Activo"){
-            $this->cat = $data->nombre_categoria;
+            $this->cat = $data;
         }
 
     }

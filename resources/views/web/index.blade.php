@@ -18,7 +18,11 @@
             <p class="presentation_description">
             Un espacio para que los fans compartan su fan art y se inspiren mutuamente. 
             </p>
-            <a class="link link-stelar" href="{{route('register')}}">¡Crea tu cuenta!</a>
+            <div class="d-flex g-1">
+                <a class="link link-stelar" href="{{route('register')}}">¡Crea tu cuenta!</a>
+                <a class="link border-white text-white text-center" href="{{route('artes')}}">Ver FanArts</a>
+
+            </div>
         </section>
         <div class="presentation_column">
             <picture class="picture">

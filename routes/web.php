@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ArteController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\WebController;
 use Illuminate\Support\Facades\Route;
@@ -13,3 +14,5 @@ Route::get('login', [LoginController::class,'index'])->name('login');
 Route::post('login', [LoginController::class,'verify'])->name('verify');
 
 Route::post('salir',[LoginController::class,'logout'])->name('logout');
+
+Route::get('artes',[ArteController::class,'index'])->name('artes');

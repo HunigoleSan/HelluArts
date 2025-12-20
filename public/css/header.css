@@ -28,6 +28,8 @@
     background-size: cover;
     background-position: center center;
     transition: box-shadow 400ms ease;
+    display: flex;
+    align-items: center;
 
 }
 .link-stelar:hover{
