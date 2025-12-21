@@ -38,6 +38,19 @@
         @endforeach
         @endif
     </div>
+    <div class="galeria">
+            <div class="item"><img src="{{asset('images/arts/blitzo-5.jpg')}}"></div>
+            <div class="item"><img src="{{asset('images/arts/loona-5.jpg')}}"></div>
+            <div class="item"><img src="{{asset('images/arts/moxxie-1.jpg')}}"></div>
+            <div class="item"><img src="{{asset('images/arts/stolas-5.jpg')}}"></div>
+            <div class="item"><img src="{{asset('images/arts/moxxie-2.jpg')}}"></div>
+            <div class="item"><img src="{{asset('images/arts/moxxie-1.jpg')}}"></div>
+            <div class="item"><img src="{{asset('images/arts/stolas-5.jpg')}}"></div>
+            <div class="item"><img src="{{asset('images/arts/moxxie-2.jpg')}}"></div>
+            <div class="item"><img src="{{asset('images/arts/loona-5.jpg')}}"></div>
+            <div class="item"><img src="{{asset('images/arts/moxxie-1.jpg')}}"></div>
+        </div>
+
 
 </section>
 @endsection

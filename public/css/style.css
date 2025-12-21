@@ -8,85 +8,10 @@ main{
     background: var(--bg-radial-wine);
 }
 
-.categorias{
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-}
 
-.galerias{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
-    gap: 1rem;
-}
 .content-img{
     position: relative;
     overflow: hidden;
     border-radius: 6px;
     
-}
-.content-img:hover .galeria-autor {
-    opacity: 1;
-}
-.content-img:hover .img {
-    transform: scale(1.2);
-}
-.galeria-autor{
-    position: absolute;
-    background-image: linear-gradient(180deg, transparent, rgba(3, 3, 3,80%));
-    padding: 1rem;
-    bottom: 0;
-    width: 100%;
-    left: 0px;
-    z-index: 13;
-    height: 120px;
-    display: flex;
-    align-items: star;
-    justify-content: end;
-    flex-direction: column;
-    gap: 6px;
-    color: white;
-    opacity: 0;
-    transition: opacity 300ms ease;
-}
-
-.galeria-nombre{
-    font-size: 25px;
-    font-weight: 400;
-}
-.galeria-descripcion{
-    font-size: 1rem;
-}
-
-.img{
-    width: 100%;
-    height: 400px;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    display: block;
-    position: relative;
-    transition: transform 300ms ease;
-}
-
-@media screen and (max-width: 560px) {
-    .galerias{
-        display: grid;
-        grid-template-columns: repeat(auto-fit,minmax(180px, 1fr));
-        gap: 1rem;
-    }
-    .img{
-        height: 330px;
-    }
-}
-
-@media screen and (max-width: 420px) {
-    .galerias{
-        display: grid;
-        grid-template-columns: repeat(auto-fit,minmax(150px, 1fr));
-        gap: 1rem;
-    }
-
-    .img{
-        height: 330px;
-    }
 }

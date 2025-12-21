@@ -16,7 +16,7 @@
                 <h2 class="presentation_title">El mundo de <span class="text-border">Helluva Boss</span> en arte</h2> 
             </section>
             <p class="presentation_description">
-            Un espacio para que los fans compartan su fan art y se inspiren mutuamente. 
+            Un espacio para que los fans compartan su arte y se inspiren mutuamente. 
             </p>
             <div class="d-flex g-1">
                 @if(!session()->has('user_id'))
