@@ -13,7 +13,6 @@ class WebController extends Controller
         $data  = [
             'getCategorias' => Categoria::getAll()
         ];
-
         return view ('web.index',compact('data'));
     }
 

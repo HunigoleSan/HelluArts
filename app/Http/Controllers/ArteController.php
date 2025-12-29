@@ -12,7 +12,7 @@ class ArteController extends Controller
             'getCategorias' => Categoria::getAll()
         ];
 
-        return view ('web.artes',compact("data"));
+        return view ('web.index',compact("data"));
     }
 
   

@@ -1,6 +1,7 @@
 <header class="header">
     <nav class="nav">
         <h1 class="nav-title">HelluArt's</h1>
+        
         <div class="dropdown">
             <i class='dropdown-icon bxr bx-apps'></i>
             <div class="dropdown-animation">

@@ -41,7 +41,7 @@ class LoginController extends Controller
                 'user_role' => $user->rol_id
             ]);
 
-            return redirect()->route('artes');
+            return redirect()->route('index');
         }
         return back()->withErrors(['login' => "Credenciales incorrectas"]);
     }

@@ -20,15 +20,14 @@
 <body class="body">
     
     <main class="main">
-
-        @if(request()->routeIs('artes'))
-        <aside class="announcement">
-            🎨 ¡Sé artista! Sube tus creaciones y comparte tu talento.
-        </aside>
-            @include('web.layouts.header_web')
         
-        @else
-            @include('web.layouts.header')
+        <!-- <aside class="announcement">
+            🎨 ¡Sé artista! Sube tus creaciones y comparte tu talento.
+        </aside> -->
+        @include('web.layouts.header_web')
+        
+        @if(request()->is('/') || request()->routeIs('index'))
+            @include('web.layouts.banner')
         @endif
         @yield('content')
 
@@ -41,5 +40,7 @@
     <!-- @include('web.layouts.footer') -->
 
 </body>
+<script src="{{asset('js/modals/main_user.js')}}" type="module"></script>
+
 
 </html>
