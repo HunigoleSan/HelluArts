@@ -203,6 +203,7 @@
 
 }
 
+
 .circle-small-right {
     position: absolute;
     transform: translateY(-50%) translateX(140px);
@@ -271,6 +272,7 @@
     flex-shrink: 0;
     scroll-snap-align: start;
     object-fit: contain;
+    position: relative;
 }
 
 .img-skew:hover {
@@ -389,8 +391,8 @@
 /*  */
 @media screen and (max-width:1450px) {
     .img-skew {
-        height: 22.5vw;
-        width: 16vw;
+        height: 21.7vw;
+        width: 15.2vw;
     }
 
     .artes-categories {

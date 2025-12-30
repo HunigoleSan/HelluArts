@@ -30,16 +30,18 @@
     <h1 class="artes-title">
         Nuestras mejores categorías
     </h1>
-    <section class="artes-categories">
-        @if($data['getCategorias']->isEmpty())
-        <p>la lista esta vacia</p>
-        @else
-        @foreach($data['getCategorias'] as $cat)
-        <x-categorias :data="$cat"></x-categorias>
-
-        @endforeach
-        @endif
+    <section class="artes-categories-padding">
+        <section class="artes-categories">
+            @if($data['getCategorias']->isEmpty())
+            <p>la lista esta vacia</p>
+            @else
+            @foreach($data['getCategorias'] as $cat)
+            <x-categorias :data="$cat"></x-categorias>
+            @endforeach
+            @endif
+        </section>
     </section>
+    
     <section class="artes_result">
         <section class="artes_generales">
             <p class="form-title">Artes Generales</p>
