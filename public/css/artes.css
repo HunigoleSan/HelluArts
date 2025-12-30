@@ -420,7 +420,9 @@
     .galeria {
         column-width: 220px;
     }
-
+    .artes-categories-padding{
+        padding: 0px 50px;
+    }
     .circle-big {
         transform: translateX(-120px);
     }
@@ -513,7 +515,9 @@
 }
 
 @media screen and (max-width: 515px) {
-
+    .artes-categories-padding{
+        padding: 0px 1rem;
+    }
     .header_artes {
         padding-left: 1rem;
         padding-right: 1rem;
