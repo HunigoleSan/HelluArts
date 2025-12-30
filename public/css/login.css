@@ -13,6 +13,8 @@ main{
     background-repeat: no-repeat;
     background-position: center center;
     min-height: 100dvh;
+    overflow-x: hidden;
+    overflow-y: auto;
     
 }
 .login{

@@ -38,7 +38,7 @@
     </div> -->
 
     <!-- @include('web.layouts.footer') -->
-
+    @stack('scripts')
 </body>
 <script src="{{asset('js/modals/main_user.js')}}" type="module"></script>
 

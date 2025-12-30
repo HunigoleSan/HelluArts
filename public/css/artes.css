@@ -1,6 +1,6 @@
 .body {
     overflow: unset;
-    overflow-x: hidden;
+    width: 100%;
 }
 
 .control {
@@ -135,42 +135,53 @@
 
 
 .artes {
-    padding: 36px 50px;
     position: relative;
-    min-height: 1500px;
-    max-width: 1500px;
     width: 100%;
-    margin: 0 auto;
+    padding: 36px 0px;
 }
+.artes_result{
+    padding: 0px 50px;
+}
+
 
 .container-circles-vectors {
     position: sticky;
-    height: 0px;
     top: 50%;
-    width: calc(100% + 100px);
+    height: 0px;
+    width: calc(100%);
     left: 0;
-    margin-top: 300px;
-    transform: translateY(-50%);
-    display: none;
-
+    /* margin-top: 300px; */
+    transform: translateY(calc(-50% + 480px));
+    transition: transform 1s ease;
+    display: flex;
+    /* display: none; */
+    overflow-x: clip;
 }
+
+
+.vectors-scrolls {
+    transform: translateY(-50%);
+}
+
 
 .container-circle {
     z-index: 2;
+    flex: 1;
 }
 
 .container-circle-right {
     display: flex;
     justify-content: end;
+    align-items: center;
 }
 
 .circle-big {
-    width: 20vw;
-    height: 20vw;
+    width: 15vw;
+    height: 15vw;
     border-radius: 50%;
     transform: translateX(-200px);
     background: var(--bg-purple-700);
-    filter: blur(145px);
+    filter: blur(110px);
 }
 
 .circle-big-right {
@@ -179,13 +190,13 @@
 }
 
 .circle-small {
-    width: 15vw;
-    height: 15vw;
+    width: 10vw;
+    height: 10vw;
     background: white;
     border-radius: 50%;
     transform: translateX(-200px);
     background: var(--bg-purple-325);
-    filter: blur(70px);
+    filter: blur(50px);
     position: absolute;
     top: 50%;
     transform: translateY(-50%) translateX(-240px);
@@ -407,7 +418,7 @@
     .galeria {
         column-width: 220px;
     }
-  
+
     .circle-big {
         transform: translateX(-120px);
     }
@@ -500,15 +511,14 @@
 }
 
 @media screen and (max-width: 515px) {
-    .artes {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
 
     .header_artes {
         padding-left: 1rem;
         padding-right: 1rem;
 
+    }
+    .artes_result{
+        padding: 0px 1rem;
     }
 
     .circle-big {
@@ -531,10 +541,10 @@
         transform: translateY(-50%) translateX(60px);
     }
 
-    .artes {
+    /* .artes {
         overflow-x: hidden;
         overflow-y: visible;
-    }
+    } */
 
 
     .main-mobile {

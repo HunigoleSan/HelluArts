@@ -144,9 +144,35 @@
 
 
 
+**fragrama 600m 		= 1000** 	recibe 700 - 600
+
+**primos  666.5 		= 600 	recibe 420 - 360**
+
+**taza 600 		= 600 	recibe 420 - 360**
+
+**burguro radiactivo 1.2b =** 
+
+**burguro 900m 		=** 
+
+garama rainbow 800m   	= 
+
+ginger lava 600m 	= 1000 	recibe 700 - 600
+
+spoky and púmpky  840	= 1200 	recibe 840 - 720
+
+dragón 250m 		= 7500 	recibe 5250 - 4500
 
 
-&nbsp;	
 
 
+
+
+
+
+
+
+
+
+
+ 
 

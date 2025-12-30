@@ -40,8 +40,7 @@
         @endforeach
         @endif
     </section>
-    <section>
-        
+    <section class="artes_result">
         <section class="artes_generales">
             <p class="form-title">Artes Generales</p>
             <form class="form-search" action="" method="post">
@@ -73,3 +72,7 @@
 
 </section>
 @endsection
+
+@push('scripts')
+<script src="{{asset('js/events/vector_scrolls.js')}}"></script>
+@endpush
