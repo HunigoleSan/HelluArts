@@ -31,22 +31,22 @@
                 </div>
                 <div class="controls ">
                     <div class="control">
-                        <label for="">nombre</label>
-                        <input class="input input-pink" type="text" name="nombre" placeholder="Ingrese su nombre">
+                        <label for="">Nombre</label>
+                        <input class="input input-pink" type="text" name="nombre" placeholder="Ingrese su nombre" value="{{old('nombre')}}">
                         @error('nombre')
                             <small class="response-error">{{$message}}</small>
                         @enderror
                     </div>
                     <div class="control">
                         <label for="">Nombre de usuario</label>
-                        <input class="input input-pink" type="text" name="nombre_usuario" placeholder="Ingrese su nombre de usuario">
-                        @error('nombre')
+                        <input class="input input-pink" type="text" name="nombre_usuario" placeholder="Ingrese su nombre de usuario" value="{{old('nombre_usuario')}}">
+                        @error('nombre_usuario')
                             <small class="response-error">{{$message}}</small>
                         @enderror
                     </div>
                     <div class="control">
                         <label for="">Correo</label>
-                        <input class="input input-pink" type="text" name="correo" placeholder="Ingrese su correo">
+                        <input class="input input-pink" type="text" name="correo" placeholder="Ingrese su correo" value="{{old('correo')}}">
                         @error('correo')
                             <small class="response-error">{{$message}}</small>
                         @enderror

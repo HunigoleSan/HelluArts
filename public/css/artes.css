@@ -167,6 +167,8 @@
 .container-circle {
     z-index: 2;
     flex: 1;
+    display: flex;
+    align-items: center;
 }
 
 .container-circle-right {

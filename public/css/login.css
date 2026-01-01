@@ -36,6 +36,7 @@ main{
     justify-content: space-between;
     padding: 2rem 1rem;
     position: relative;
+    gap: 6px;
 }
 .login-header{
     display: flex;
